@@ -1,0 +1,101 @@
+//////////////////////////
+Chapter 1: Basic Commands 
+//////////////////////////
+$ pwd
+> This command is used to print working directory.
+  (pwd: print working directory)
+
+-----------------------------------
+
+$ cd 
+> This command is used to change directory.
+  (pwd: change directory)
+
+example 
+$cd Document
+
+> Document $ pwd
+/root/Document
+
+------------------------------------
+a)
+$ cd .. or cd ../
+> This command is used to go back previous directory.
+
+b)
+$ cd . or cd ./
+> no change, stay in present working directory.
+
+c)
+$ cd ... or cd .../
+> not working.
+
+d)
+$ cd / 
+> This command is used to move from current directory to root directory.
+
+e)
+$ cd /home 
+> This command is used to move from current directory to  home derectory which is located at root.
+
+f)
+$ cd ~ 
+> This command is used to move from current directory to home directory.
+
+Note: / is your root directory
+      ~ is your home directory
+
+    
+-------------------------------------
+
+$ mkdir
+> This command is used to create a new directory.
+  (mkdir: make directory)
+
+example...
+$ mkdir myFOlder
+
+
+--------------------------------------
+
+$ ls
+> This command is used to list files. show files and folder avalaible in current directory.
+
+
+
+-------------------------------------
+
+$ touch
+> This command is used to create a new file.
+
+example...
+$ touch index.html
+
+
+-----------------------------------------
+
+
+$ rm
+> This command is used to delete file only.
+
+example...
+$ rm index.html
+
+for deleting folder 
+
+$ rm -rf
+> This command is used to delete file and folder both.
+  (-rf is flag of rm)
+-------------------------------------------
+
+$ rmdir
+> This command is used to delete directory only.
+  (rmdir: remove directory)
+
+example...
+$ rmdir folderName
+
+
+
+///////////// The End ////////////
+

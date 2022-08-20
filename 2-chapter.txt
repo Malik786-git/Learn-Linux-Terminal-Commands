@@ -1,0 +1,95 @@
+//////////////////////////////////////
+Chapter 2: Some Advanced Commands 😎
+/////////////////////////////////////
+
+
+$ mv
+> This command is used to move a single file to another directory.
+
+example 
+$ mv my.txt /root/public
+
+Understand: here my.txt move from current dir to public folder which is located at root.
+Note: it move file and folder.
+-------------------------------------------
+
+$mv 
+> This is also used to rename the file 
+
+example...
+$ mv my.txt doc.txt
+
+-------------------------------------------
+$ cp 
+> This command is used to copy a single file to another directory.
+
+example 
+$ cp my.txt /root/public
+
+Understand: here my.txt copy from current dir to public folder which is located at root.
+Note: it copy file only 
+
+
+------------------------------------------
+
+for copy folder used Flag -R 
+
+$ cp -R folder /root/public
+
+-------------------------------------------
+
+create hidden files
+
+$ touch .txt
+> for making hidden file not need to write name of file only write extension like .txt or .html
+
+-------------------------------------------
+Rememder hidden file not show throught the command ls.
+to see the hidden file used command ls -la
+
+$ ls -la 
+> used to see the all files including hidden file..
+
+
+-------------------------------------------
+
+$ cat 
+> used to show the content of file on terminal.
+example 
+$ cat my.txt
+
+
+-------------------------------------------
+
+
+
+
+
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+/////////// 👀 General Commands ///////////////
+
+$ date
+>  used to see date
+
+$ history
+> used to see the terminal history.
+
+$ clear
+> used to clear terminal interface
+
+$ exit 
+> used to close terminal 😔
+
+$ top
+> to see task manager.
+
+$ lscpu
+> show the detail of cpu like architecture and processors detail etc.
+
+
+
+-------------------------------------------
+
