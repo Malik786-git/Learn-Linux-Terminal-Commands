@@ -1,5 +1,5 @@
 //////////////////////////////////////
-Chapter 2: Some Advanced Commands 😎
+Chapter 2: Advanced Commands I 😎
 /////////////////////////////////////
 
 
@@ -61,15 +61,28 @@ $ cat my.txt
 
 -------------------------------------------
 
+$ man 
+> used to show the detail of cammand, 
+ > you see what is cammand purpose how many flag of this cammand.
+ > how many way to used this cammand.
+ (man : Manual paper utils)
 
+example..
 
-
-
+$ man ls 
+  show the detail about ls cammand.
+  
+$ man pwd 
+  show the detail about pwd cammand.
+  
 -------------------------------------------
 -------------------------------------------
 -------------------------------------------
 -------------------------------------------
 /////////// 👀 General Commands ///////////////
+
+$ info 
+>  used to see information about command
 
 $ date
 >  used to see date
@@ -89,7 +102,12 @@ $ top
 $ lscpu
 > show the detail of cpu like architecture and processors detail etc.
 
+$ who or $ who am i
+> To see who's using system.
 
+$ whatis cammand-name 
+> get short description 
 
 -------------------------------------------
 
+///////////// The End ////////////

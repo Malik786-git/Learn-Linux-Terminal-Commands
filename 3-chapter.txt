@@ -1,0 +1,43 @@
+//////////////////////////////////////
+Chapter 2: Advanced Commands II 😎
+/////////////////////////////////////
+
+
+$ find
+> This is useed to search for files in a directory hierarchy
+
+example..
+$ find -name tecmint.txt
+$ find / -name tecmint.txt 
+      (search from root) 
+
+for more:
+https://www.tecmint.com/35-practical-examples-of-linux-find-command/
+
+
+-----------------------------------------------
+
+/////////// 👀 Advance General Commands ///////////////
+
+$ uptime
+> tell how long the system has been running.
+
+$ uname
+> print system info.
+
+$ df
+> report file system disk space usage
+
+$ df -h
+> report file system disk space usage in readable form
+
+$ du
+> estimate file space usage.
+
+$whereis ls 
+> get ls cammand  file path. used to get file path of any cammand.
+
+$which ls 
+> get ls cammand folder path.
+
+
